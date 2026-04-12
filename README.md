@@ -138,7 +138,8 @@ Shows which customer cluster carries the **highest churn probability**.
 A density curve showing how well the model separates churners (high scores) from loyal customers (low scores).
 
 > 💡 A good model produces two clearly separated peaks  churners bunch up near 1.0, loyal customers near 0.0. If the curves overlap heavily, the model needs improvement.
-![Risk Score](
+![Risk Score](https://github.com/Katlego-DataLab/FUTURE_DS_02/blob/main/risk%20score.jpeg)
+> 
 ---
 
 ### Chart 4 — Revenue vs. Usage (Scatter by Segment)
