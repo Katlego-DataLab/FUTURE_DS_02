@@ -131,7 +131,8 @@ Shows the **class imbalance** in the dataset: how many customers stayed vs. chur
 Shows which customer cluster carries the **highest churn probability**.
 
 > 💡 This chart tells the retention team exactly *which type of customer* to prioritise. Instead of sending offers to everyone, they can focus budget on the high-risk segment only.
-![Churn Rate](
+![Churn Rate](https://github.com/Katlego-DataLab/FUTURE_DS_02/blob/main/churn%20rate.jpeg)
+
 ---
 
 ### Chart 3 — Risk Score Distribution: Churners vs Non-Churners
