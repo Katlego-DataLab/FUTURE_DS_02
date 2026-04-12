@@ -25,9 +25,9 @@ Every month, telecom companies silently lose customers and most of the time, the
 
 This is called **customer churn**: when a subscriber stops using the service without warning. In the telecom industry:
 
-#  Acquiring a **new customer costs 5–7× more** than retaining an existing one
-#  A company with **1 million customers** and even a **2% monthly churn rate** loses **20,000 customers every single month**
-# Lost customers = lost monthly subscriptions, recharge revenue, and data plan fees
+- Acquiring a **new customer costs 5–7× more** than retaining an existing one
+- A company with **1 million customers** and even a **2% monthly churn rate** loses **20,000 customers every single month**
+- Lost customers = lost monthly subscriptions, recharge revenue, and data plan fees
 
 The challenge? Customer behaviour changes *gradually*. A person doesn't just wake up and leave — they slowly stop calling, stop recharging, stop using data. **The signal is hidden in the numbers.**
 
