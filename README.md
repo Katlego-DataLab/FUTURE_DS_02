@@ -147,6 +147,8 @@ Plots **Average Revenue Per User (ARPU)** vs. **Total Minutes of Use**, colour-c
 
 > 💡 High-value customers (top-right corner) are your VIPs even a small churn rate among them causes massive revenue loss. Low-usage, low-revenue customers (bottom-left) are the highest churn risk.
 
+![Revenue](https://github.com/Katlego-DataLab/FUTURE_DS_02/blob/main/revenue.jpeg)
+
 ---
 
 ## 📦 Libraries Used
