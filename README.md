@@ -29,13 +29,13 @@ This is called **customer churn**: when a subscriber stops using the service wit
 - A company with **1 million customers** and even a **2% monthly churn rate** loses **20,000 customers every single month**
 - Lost customers = lost monthly subscriptions, recharge revenue, and data plan fees
 
-The challenge? Customer behaviour changes *gradually*. A person doesn't just wake up and leave — they slowly stop calling, stop recharging, stop using data. **The signal is hidden in the numbers.**
+The challenge? Customer behaviour changes *gradually*. A person doesn't just wake up and leave, they slowly stop calling, stop recharging, stop using data. **The signal is hidden in the numbers.**
 
 ---
 
 ## ✅ The Solution
 
-This project builds a **Customer Lifecycle Intelligence System** — a data-driven pipeline that:
+This project builds a **Customer Lifecycle Intelligence System**  a data-driven pipeline that:
 
 1. **Watches customer behaviour** across 4 months of activity (June, July, August, September)
 2. **Labels churners** based on a clear rule: *"Active in August but completely silent in September = Churned"*
@@ -49,16 +49,16 @@ This project builds a **Customer Lifecycle Intelligence System** — a data-driv
 
 Think of it like this:
 
-> Imagine you run a gym. You notice that members who stop coming for 3 weeks in a row almost always cancel their membership. So you create an early warning system — anyone who hasn't scanned in for 2 weeks gets a free personal training session as a "come back" offer.
+> Imagine you run a gym. You notice that members who stop coming for 3 weeks in a row almost always cancel their membership. So you create an early warning system, anyone who hasn't scanned in for 2 weeks gets a free personal training session as a "come back" offer.
 
-This project does exactly that — but for a telecom company, using **minutes of calls, recharge amounts, and data usage** instead of gym visits.
+This project does exactly that  but for a telecom company, using **minutes of calls, recharge amounts, and data usage** instead of gym visits.
 
 ### Step-by-Step:
 
 | Step | What Happened |
 |------|--------------|
 | **1. Load Data** | Imported a wide dataset with monthly telecom metrics per customer |
-| **2. Reshape** | Transformed the data from wide format (one row per customer) to long format (one row per customer per month) — this makes trend analysis possible |
+| **2. Reshape** | Transformed the data from wide format (one row per customer) to long format (one row per customer per month)  this makes trend analysis possible |
 | **3. Clean** | Removed rows with >80% missing values; filled remaining gaps using median/mode values |
 | **4. Define Churn** | A customer is marked as "Churned" if they had activity in August but zero activity in September |
 | **5. Engineer Features** | Created two new combined metrics: `total_recharge` (money spent) and `total_usage_mou` (total minutes used) |
@@ -77,7 +77,7 @@ This project does exactly that — but for a telecom company, using **minutes of
 | Raw columns in original dataset | **226 columns** |
 | Months of data tracked | **4 months** (June – September) |
 | Data format after reshaping | Long format (one row per customer per month) |
-| Columns after renaming & cleanup | **~40 meaningful features** |
+| Columns after renaming & cleanup | **40 meaningful features** |
 | MOU (Minutes of Use) columns | **17 MOU-related columns** |
 
 ### Data Cleaning
@@ -86,7 +86,7 @@ This project does exactly that — but for a telecom company, using **minutes of
 | Missing value threshold for row removal | **80%** (rows with over 80% empty values were dropped) |
 | Numeric columns filled | Via **median imputation** |
 | Categorical columns filled | Via **mode imputation** |
-| Missing values remaining after cleaning | **0** ✅ |
+| Missing values remaining after cleaning | **0**  |
 
 ### Model Training & Evaluation
 | Metric | Value |
@@ -131,20 +131,20 @@ Shows the **class imbalance** in the dataset: how many customers stayed vs. chur
 Shows which customer cluster carries the **highest churn probability**.
 
 > 💡 This chart tells the retention team exactly *which type of customer* to prioritise. Instead of sending offers to everyone, they can focus budget on the high-risk segment only.
-
+![Churn Rate](
 ---
 
 ### Chart 3 — Risk Score Distribution: Churners vs Non-Churners
 A density curve showing how well the model separates churners (high scores) from loyal customers (low scores).
 
-> 💡 A good model produces two clearly separated peaks — churners bunch up near 1.0, loyal customers near 0.0. If the curves overlap heavily, the model needs improvement.
-
+> 💡 A good model produces two clearly separated peaks  churners bunch up near 1.0, loyal customers near 0.0. If the curves overlap heavily, the model needs improvement.
+![Risk Score](
 ---
 
 ### Chart 4 — Revenue vs. Usage (Scatter by Segment)
 Plots **Average Revenue Per User (ARPU)** vs. **Total Minutes of Use**, colour-coded by segment.
 
-> 💡 High-value customers (top-right corner) are your VIPs — even a small churn rate among them causes massive revenue loss. Low-usage, low-revenue customers (bottom-left) are the highest churn risk.
+> 💡 High-value customers (top-right corner) are your VIPs even a small churn rate among them causes massive revenue loss. Low-usage, low-revenue customers (bottom-left) are the highest churn risk.
 
 ---
 
@@ -197,7 +197,7 @@ Raw CSV (226 cols)
 
 ---
 
-## 🚀 How to Run
+##  How to Run
 
 ### Requirements
 ```bash
@@ -220,7 +220,7 @@ pip install pandas numpy scikit-learn seaborn matplotlib
 
 | File | Description |
 |------|-------------|
-| `telecom_churn_analysis.csv` | Full dataset enriched with `churn`, `Risk_Probability`, and `User_Segment` columns — ready for Power BI |
+| `telecom_churn_analysis.csv` | Full dataset enriched with `churn`, `Risk_Probability`, and `User_Segment` columns ready for Power BI |
 | `telecom_churn_visuals.png` | 4-panel visualisation dashboard |
 
 ---
@@ -238,5 +238,5 @@ pip install pandas numpy scikit-learn seaborn matplotlib
 
 ## 👤 Author
 
-**FUTURE_DS_02** | Customer Lifecycle Intelligence Project  
+**Katlego Mathebula** | Customer Lifecycle Intelligence Project  
 *Built with Python · scikit-learn · pandas · seaborn*
