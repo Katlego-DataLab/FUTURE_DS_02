@@ -9,7 +9,7 @@
 
 1. [The Problem](#the-problem)
 2. [The Solution](#the-solution)
-3. [How It Works (Plain English)](#how-it-works-plain-english)
+3. [How It Works](#how-it-works-plain-english)
 4. [Key Results & Numbers](#key-results--numbers)
 5. [Data Visualizations](#data-visualizations)
 6. [Libraries Used](#libraries-used)
@@ -45,7 +45,7 @@ This project builds a **Customer Lifecycle Intelligence System** — a data-driv
 
 ---
 
-## 🧠 How It Works (Plain English)
+## 🧠 How It Works 
 
 Think of it like this:
 
