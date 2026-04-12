@@ -121,7 +121,7 @@ The project generates 4 key charts saved as `telecom_churn_visuals.png`:
 ### Chart 1 — Churn Distribution
 Shows the **class imbalance** in the dataset: how many customers stayed vs. churned.
 
-> 💡 In most telecom datasets, churners are a minority (typically 5–20%). This imbalance is why we use `class_weight='balanced'` in the model — otherwise the model would just predict "stayed" for everyone and still look accurate!
+> 💡 In most telecom datasets, churners are a minority (typically 5–20%). This imbalance is why we use `class_weight='balanced'` in the model otherwise the model would just predict "stayed" for everyone and still look accurate!
 
 ![Churn Distribution](https://github.com/Katlego-DataLab/FUTURE_DS_02/blob/main/distrubution%20of%20churn.jpeg)
 
@@ -131,6 +131,7 @@ Shows the **class imbalance** in the dataset: how many customers stayed vs. chur
 Shows which customer cluster carries the **highest churn probability**.
 
 > 💡 This chart tells the retention team exactly *which type of customer* to prioritise. Instead of sending offers to everyone, they can focus budget on the high-risk segment only.
+
 ![Churn Rate](https://github.com/Katlego-DataLab/FUTURE_DS_02/blob/main/churn%20rate.jpeg)
 
 ---
@@ -139,8 +140,9 @@ Shows which customer cluster carries the **highest churn probability**.
 A density curve showing how well the model separates churners (high scores) from loyal customers (low scores).
 
 > 💡 A good model produces two clearly separated peaks  churners bunch up near 1.0, loyal customers near 0.0. If the curves overlap heavily, the model needs improvement.
+
 ![Risk Score](https://github.com/Katlego-DataLab/FUTURE_DS_02/blob/main/risk%20score.jpeg)
-> 
+
 ---
 
 ### Chart 4 — Revenue vs. Usage (Scatter by Segment)
