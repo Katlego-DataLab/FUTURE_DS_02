@@ -1,6 +1,6 @@
 # 📡 Customer Lifecycle Intelligence: Predicting & Preventing Telecom Churn
 
-> **Can a machine learn to spot a customer who's about to leave — before they do?**  
+> **Can a machine learn to spot a customer who's about to leave  before they do?**  
 > This project answers that question using real telecom data, machine learning, and behavioral clustering.
 
 ---
@@ -123,7 +123,7 @@ Shows the **class imbalance** in the dataset: how many customers stayed vs. chur
 
 > 💡 In most telecom datasets, churners are a minority (typically 5–20%). This imbalance is why we use `class_weight='balanced'` in the model — otherwise the model would just predict "stayed" for everyone and still look accurate!
 
-![Churn Distribution](telecom_churn_visuals.png)
+![Churn Distribution](https://github.com/Katlego-DataLab/FUTURE_DS_02/blob/main/distrubution%20of%20churn.jpeg)
 
 ---
 
