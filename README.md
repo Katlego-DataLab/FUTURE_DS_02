@@ -6,7 +6,8 @@
 
 ## 📊 Customer Lifecycle Intelligence: A Predictive Framework for Churn Mitigation
 
-https://app.powerbi.com/groups/me/reports/9c0ee016-8320-4551-9f71-bc3497fe238d/0ffeaf814b720718d3b2?experience=power-bi
+[![Open in Power BI](https://img.shields.io/badge/Open%20in-Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)](https://app.powerbi.com/groups/me/reports/9c0ee016-8320-4551-9f71-bc3497fe238d/0ffeaf814b720718d3b2?experience=power-bi)
+
 
 ![DashBoard](https://github.com/Katlego-DataLab/FUTURE_DS_02/blob/main/FUTURE%202_DASHBOARD.png)
 
