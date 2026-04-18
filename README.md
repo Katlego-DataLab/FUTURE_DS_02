@@ -6,7 +6,7 @@
 
 ## 📊 Customer Lifecycle Intelligence: A Predictive Framework for Churn Mitigation
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](YOUR_COLAB_URL_HERE)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1ptbOVWOMKKmQeN3XNPFoTAlYTzGeFxZq)
 
 > **Code & Visuals** Interactive churn prediction analysis in Google Colab
 ---
