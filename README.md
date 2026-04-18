@@ -3,6 +3,12 @@
 > **Can a machine learn to spot a customer who's about to leave  before they do?**  
 > This project answers that question using real telecom data, machine learning, and behavioral clustering.
 
+
+## 📊 Customer Lifecycle Intelligence: A Predictive Framework for Churn Mitigation
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](YOUR_COLAB_URL_HERE)
+
+> **Code & Visuals** — Interactive churn prediction analysis in Google Colab
 ---
 
 ## 📋 Table of Contents
